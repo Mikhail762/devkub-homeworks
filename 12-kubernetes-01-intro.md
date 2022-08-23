@@ -56,8 +56,8 @@ storage-provisioner                1/1     Running   1 (5m57s ago)   6m35s
 ## Задача 2: Запуск Hello World
 После установки Minikube требуется его проверить. Для этого подойдет стандартное приложение hello world. А для доступа к нему потребуется ingress.
 
-- развернуть через Minikube тестовое приложение по [туториалу](https://kubernetes.io/ru/docs/tutorials/hello-minikube/#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0-minikube)
-- установить аддоны ingress и dashboard
+- установить аддоны ingress и dashboard- развернуть через Minikube тестовое приложение по [туториалу](https://kubernetes.io/ru/docs/tutorials/hello-minikube/#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0-minikube)
+
 
 ```commandline
 [netology@mini2 ~]$ kubectl get services
@@ -174,7 +174,7 @@ user-agent=curl/7.68.0
 BODY:
 -no body in request-
 ```
-
+Подключить локальный kubectl к кластеру minikube пока не сумел. При любых запросах не может обнаружить никаких ресурсов кластера.
 
 
 ## Задача 4 (*): собрать через ansible (необязательное)
